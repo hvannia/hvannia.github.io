@@ -27,12 +27,12 @@ div::before {
 }
 */
 nav{
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .lefooter{
-	color: #4a4945;
+	
 	text-align: center;
-	background-color:#F7EDDD;
+	background-color:#fdfbf8;
 	font-size:24px;
 	height: 30px;
 	
