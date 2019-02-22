@@ -15,9 +15,15 @@ nav{
 	
 }
 .lefooter a{
-	color: #4a4945;
+	color: #1e207a;
 }
-
+.lefooter p{
+    color: #1e207a;
+    font-family:monospace;
+    font-size: 0.755rem;
+    font-weight: 400;
+    line-height: 1.0;
+}
 .iconImg{
 	max-height: 40px;
 	height:auto;
