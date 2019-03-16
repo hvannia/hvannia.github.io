@@ -8,7 +8,13 @@
         <link type="text/css"  href="styles/bootstrapLight.css" rel="stylesheet">
         <link type="text/css"  href="styles/portfolioStyles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">       
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">        
+        <title>Earthquake Map</title>
+    </head>
+    <body>
+         
+   
+        
         <div class="container">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -37,8 +43,8 @@
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">WEB Visualizations</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="mars.html">Web Scraping</a>
-                            <a class="dropdown-item disabled" href="dashboard.html">Dashboard</a>
+                            <a class="dropdown-item disabled" href="mars.html">Web Scraping</a>
+                            <a class="dropdown-item " href="dashboard.html">Dashboard</a>
                             <a class="dropdown-item " href="census.html">Census Data</a>
                             <a class="dropdown-item disabled" href="earthquakes.html">Earthquakes</a>
                         </div>
@@ -46,14 +52,14 @@
                       <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">ETL</a>
                             <div class="dropdown-menu">
-                                <a class="dropdown-item " href="https://github.com/hvannia/ETL_pt">US Mortality (git)</a>
+                                <a class="dropdown-item" href="https://github.com/hvannia/ETL_pt">US Mortality (git)</a>
                             </div>
                           </li>
     
                       <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Me</a>
                             <div class="dropdown-menu">
-                              <a class="dropdown-item " href="bio.html">bio</a>
+                              <a class="dropdown-item disabled" href="#">bio</a>
                               <a class="dropdown-item" href="https://github.com/hvannia">GitHub</a>
                               <a class="dropdown-item" href="https://www.linkedin.com/in/hvannia">LinkedIn</a>
                               <a class="dropdown-item" href="mailto:hvannia@gmail.com">Email</a>
@@ -67,32 +73,37 @@
                     
                     </ul>
                 </div>
-        </nav>
+                </nav>
 
 
             <div class="row" style="padding-top: 20px;"></div>
             <div class="row">
                 <div class="col-lg-3">
-                    <p> Interactive dashboard where data is retrieved fom a database and presented as visualizations.</p>
-                    <p class="border border-info">
-                        <a  href="https://github.com/hvannia/bioButtoniDash">This project on github</a>
-                    </p>
-                    <p class="border border-info">
-                        <a   href="https://b3dashboard.herokuapp.com/">Play with Dashboard on Heroku</a>
-                    </p>
                     <p>
-                        This project was made with : Python (Pandas,  Flask, SQLAlchemy), JavaScript,  plotly,  HTML, CSS.<br />
-                        Data : SQLite<br />
-                        Tools: Git.<br />
-                    </p>
-                  
-                </div>
-                <div class="col-lg-9">
-                    <img  class="img-fluid" src="Images/dashboardTop.png" alt="dashboard top of screen"><br />
-                    <img  class="img-fluid" src="Images/dashboardBott.png" alt="dashboard bottom of screen">
-                </div>
+                            Mapping of all earthquakes and/or tectonic plates in the last 7 days using USGS data.</p>
+                            <p>Map shows differences in earthquake magnitude.</p>
+<br />
+<p>This project was made with : HTML, CSS, JavaScript ( leaflet ) <br />
+        Data : JSON <br />
+        Tools:  Git.</p>
+        <p class="border border-info">
+                <a  href="https://github.com/hvannia/mapquakes">This project on github</a>
+        </p>
+       
+        <!--
+        <p class="border border-info">
+                <a  href="https://hvannia.github.io/d3_1/">This project live</a>
+        </p>--> 
+            </div>
+             <div class="col-lg-9">
+                <img src="Images/earthquakes.jpg" alt="earthquakes map" class="img-fluid"> 
+            </div>
+        </div><!-- row-->
+          
 
-            </div><!-- ROW-->
+
+             
+            </div><!-- container-->
 
 
      
