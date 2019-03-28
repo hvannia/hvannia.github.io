@@ -58,7 +58,7 @@ hr {
 }
 header .profileHeader p {
 	font-family: sans-serif;
-	color: rgba(146,146,146,1.00);
+	color: #1d207a;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -102,7 +102,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
-	color: rgba(208,207,207,1.00);
+	color: #1d207a
 }
 .mainContent .section1 .section1Content span {
 	color: rgba(146,146,146,1.00);
@@ -116,7 +116,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 }
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
-	color: rgba(68,67,67,1.00);
+	color: #1d207a;
 	font-size: 14px;
 	font-weight: 400;
 }
