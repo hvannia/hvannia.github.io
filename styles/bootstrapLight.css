@@ -73,7 +73,7 @@
 
    text-align: left;
    /*background-color: #f7eddd;*/
-   background-color: #fffefe;
+   background-color: #FFF;
 
  }
  
@@ -167,7 +167,7 @@
  }
  
  a {
-   color: #9354a9;
+   color: #1a3047;
    text-decoration: none;
    background-color: transparent;
  }
@@ -212,6 +212,7 @@
  img {
    vertical-align: middle;
    border-style: none;
+   box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.44);
  }
  
  svg {

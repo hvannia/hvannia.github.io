@@ -15,10 +15,19 @@ nav{
 	
 }
 .lefooter a{
-	color: #1e207a;
+	color: coral;
+}
+
+.lefooterIcons a{
+    color:coral;
+    font-family:monospace;
+
+    /*font-size: 0.755rem;*/
+    font-size: 36px;
+    font-weight: 400;
 }
 .lefooter p{
-    color: #1e207a;
+    color:coral;
     font-family:monospace;
 
     /*font-size: 0.755rem;*/
@@ -40,4 +49,9 @@ nav{
 video{
     width:600px;
     height:auto;
+}
+
+.index-img{
+    opacity: 0.65;
+  filter: alpha(opacity=50); /* For IE8 and earlier */ 
 }
